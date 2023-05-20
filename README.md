@@ -22,4 +22,4 @@ question, or have a tip/trick that you'd like to share/see implemented.
 
 #### STORM-seq workflow diagram
 
-<img title="STORM-seq workflow" alt="STORM-seq workflow" src="/images/stormseq_workflow.png">
+<img title="STORM-seq workflow" alt="STORM-seq workflow" src="/images/storm_workflow.png">
