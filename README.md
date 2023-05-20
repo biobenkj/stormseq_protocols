@@ -1,10 +1,25 @@
-# STORM-seq protocol for library preparation
+# STORM-seq protocols for library preparation and analysis
 
 This repository contains the current and archived STORM-seq protocols
-for library construction. You can expect this process to take approximately
+for library construction and analysis. 
+
+### Library construction
+You can expect this process to take approximately
 8-10 hours to go from single cells to prepared library. Please feel
 free to open an issue if you encounter any sort of problem, have a
 question, or have a tip/trick that you'd like to share/see implemented.
+
+### Analysis
+STORM-seq can ultimately be analyzed as if it were a "bulk" RNA-seq
+protocol and is functional with tooling that supports this kind of 
+input. Additionally, we recommend and support analysis using Kallisto|Bustools
+and STARsolo. The required software and scripts to run these tools are
+found in the 'analysis' folder/directory. Additionally, we are working
+on producing docker and singularity containers for distribution as well.
+As with the library prep documentation, please feel free to open an issue
+if you encounter a problem or have suggestions for feature development.
+
+*Thanks for trying out STORM-seq!*
 
 #### Key kit components to purchase:
 
