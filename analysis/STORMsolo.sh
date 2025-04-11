@@ -125,7 +125,8 @@ function pipeline {
         --genomeDir "${index}" \
         --outFileNamePrefix "${o_path}" \
         --readFilesIn ${bc_read1} ${bc_read2} \
-        --outSAMtype BAM Unsorted \
+        --outSAMtype BAM SortedByCoordinate \
+	--outSAMattributes NH HI nM AS CR UR CB UB GX GN \
         --readFilesCommand zcat \
         --soloStrand Reverse \
         --soloType CB_UMI_Simple \
@@ -138,7 +139,8 @@ function pipeline {
         --soloUMIlen 8 \
         --soloBarcodeReadLength 0 \
         --soloUMIdedup Exact \
-        --soloFeatures Gene GeneFull \
+	--soloMultiMappers EM \
+        --soloFeatures GeneFull \
         --soloOutFileNames output/ features.tsv barcodes.tsv matrix.mtx
 
     if [[ ! "${keep_bc}" == true ]]; then
