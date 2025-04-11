@@ -1,0 +1,146 @@
+Step	METHOD	duration	step
+Start	STORM	0	hands_off
+Start	VASA	0	hands_off
+Start	SST	0	hands_off
+Start	SS3E	0	hands_off
+Start	SS2	0	hands_off
+Cell lysis	STORM	20	hands_on
+Fragmentation	STORM	5	hands_off
+Reverse transcription	STORM	20	hands_on
+Reverse transcription	STORM	190	hands_off
+Amplification	STORM	40	hands_on
+Amplification	STORM	25	hands_off
+Pool	STORM	10	hands_on
+Bead based cleanup	STORM	45	hands_on
+rRNA depletion	STORM	1	hands_on
+rRNA depletion	STORM	70	hands_off
+Amplification	STORM	1	hands_on
+Amplification	STORM	25	hands_off
+Bead based cleanup	STORM	45	hands_on
+Cell lysis	VASA	5	hands_on
+Cell lysis	VASA	73	hands_off
+RNA repair and polyA tailing	VASA	5	hands_on
+RNA repair and polyA tailing	VASA	60	hands_off
+Reverse transcription	VASA	5	hands_on
+Reverse transcription	VASA	60	hands_off
+Second strand synthesis	VASA	5	hands_on
+Second strand synthesis	VASA	140	hands_off
+Pool	VASA	10	hands_on
+IVT transcription	VASA	5	hands_on
+IVT transcription	VASA	780	hands_off
+Primer removal	VASA	5	hands_on
+Primer removal	VASA	15	hands_off
+Bead based cleanup	VASA	45	hands_on
+QC	VASA	45	hands_on
+QC	VASA	60	hands_off
+Normalization	VASA	60	hands_on
+rRNA depletion	VASA	10	hands_on
+rRNA depletion	VASA	70	hands_off
+Bead based cleanup	VASA	45	hands_on
+Adapter ligation	VASA	5	hands_on
+Adapter ligation	VASA	60	hands_off
+First strand synthesis	VASA	5	hands_on
+First strand synthesis	VASA	75	hands_off
+RNase incubation	VASA	5	hands_on
+RNase incubation	VASA	30	hands_off
+Bead based cleanup	VASA	45	hands_on
+Amplification	VASA	5	hands_on
+Amplification	VASA	30	hands_off
+Bead based cleanup	VASA	45	hands_on
+Cell lysis	SST	5	hands_on
+Cell lysis	SST	3	hands_off
+PolyA tailing	SST	5	hands_on
+PolyA tailing	SST	20	hands_off
+Reverse Transcription	SST	5	hands_on
+Reverse Transcription	SST	95	hands_off
+TSO digestion	SST	5	hands_on
+TSO digestion	SST	30	hands_off
+Amplification	SST	5	hands_on
+Amplification	SST	30	hands_off
+Bead based cleanup	SST	45	hands_on
+QC	SST	45	hands_on
+QC	SST	60	hands_off
+Normalization	SST	120	hands_on
+Amplification	SST	5	hands_on
+Amplification	SST	30	hands_off
+Pool	SST	10	hands_on
+Bead based cleanup	SST	45	hands_on
+DASH depletion of rRNA	SST	5	hands_on
+DASH depletion of rRNA	SST	60	hands_off
+Cas9 inactivation	SST	5	hands_on
+Cas9 inactivation	SST	15	hands_off
+Bead based cleanup	SST	45	hands_on
+Cell lysis	SS3E	10	hands_on
+Cell lysis	SS3E	10	hands_off
+Reverse Transcription	SS3E	5	hands_on
+Reverse Transcription	SS3E	120	hands_off
+Amplification	SS3E	5	hands_on
+Amplification	SS3E	90	hands_off
+Dilution	SS3E	20	hands_on
+Tagmentation	SS3E	10	hands_on
+Tagmentation	SS3E	35	hands_off
+Pooling	SS3E	10	hands_on
+Bead based cleanup	SS3E	45	hands_on
+Cell lysis	SS2	10	hands_on
+Cell lysis	SS2	3	hands_off
+Reverse transcription	SS2	5	hands_on
+Reverse transcription	SS2	175	hands_off
+Amplification	SS2	5	hands_on
+Amplification	SS2	175	hands_off
+Bead based cleanup	SS2	45	hands_on
+QC	SS2	45	hands_on
+QC	SS2	60	hands_off
+Normalization	SS2	60	hands_on
+Tagmentation	SS2	5	hands_on
+Tagmentation	SS2	10	hands_off
+Tagmentation Inactivation	SS2	5	hands_on
+Tagmentation Inactivation	SS2	5	hands_off
+Amplification	SS2	5	hands_on
+Amplification	SS2	55	hands_off
+Bead based cleanup	SS2	45	hands_on
+Cell lysis	snapT	0	hands_off
+Cell lysis	snapT	10	hands_on
+Reverse transcription	snapT	120	hands_off
+Reverse transcription	snapT	5	hands_on
+Amplification	snapT	75	hands_off
+Amplification	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Double stranded conversion	snapT	70	hands_off
+Double stranded conversion	snapT	5	hands_on
+Pooling	snapT	0	hands_off
+Pooling	snapT	10	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Sonication	snapT	0	hands_off
+Sonication	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Double stranded conversion	snapT	25	hands_off
+Double stranded conversion	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+dA tailing	snapT	30	hands_off
+dA tailing	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Adapter ligation	snapT	20	hands_off
+Adapter ligation	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Amplification	snapT	25	hands_off
+Amplification	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Duplex-specific nuclease treatment	snapT	195	hands_off
+Duplex-specific nuclease treatment	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Enrichment PCR	snapT	15	hands_off
+Enrichment PCR	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
+Amplification	snapT	15	hands_off
+Amplification	snapT	5	hands_on
+Bead based cleanup	snapT	0	hands_off
+Bead based cleanup	snapT	45	hands_on
