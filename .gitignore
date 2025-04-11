@@ -1,0 +1,54 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE specific files
+*.swp
+*~
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Log files
+*.log
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packaging
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Dependency directories
+node_modules/
+bower_components/
+vendor/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary files
+tmp/
+temp/
