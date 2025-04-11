@@ -13,8 +13,8 @@ this needs to be done prior to execution.
 
 After per cell fastq generation, cells were calculated for read depth using awk.
 As an example:
-First calculate read depth using any one of the 4 fastqs per barcode - awk 'END { print NR / 4 }' filename.txt
-Then go through and find files/cells with at least 100k reads - awk '$2 > 100000 { print $1 }' filename.txt
+First calculate read depth using any one of the 4 fastqs per barcode - `awk 'END { print NR / 4 }' filename.txt`
+Then go through and find files/cells with at least 100k reads - `awk '$2 > 100000 { print $1 }' filename.txt`
 Column 1 here is the file name/cell barcode and column 2 is the read depth calculated above.
 Note: dropped 2 cells from the expected 96.
 
