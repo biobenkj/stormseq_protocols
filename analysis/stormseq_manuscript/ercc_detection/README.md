@@ -8,3 +8,5 @@ molecule species.
 The ERCC fasta file, GTF, and info are provided here for convenience.
 
 The .rds objects for the STORM-seq data can be found at the zenodo link.
+
+<img title="ERCC detection" alt="ERCC detection" src="/images/ercc_detection.png">
