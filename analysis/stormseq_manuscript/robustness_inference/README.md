@@ -7,7 +7,7 @@ limited to 150k reads/cell in VASA-seq. After subsampling, to simulate 10 separa
 these single-cell expression profiles, cells were subsampled with 10 random seeds (`rand_seeds.txt`)
 to 50k reads/cell. These were then pseudo aligned and quantified using kallisto|bustools at the transcript
 level as described in the methods of the paper. Per-cell bootstrapped quantification was then processed
-and summarized as described in the methods of the paper and associated R script (`robustness_inference_analysis.R`).
+and summarized as described in the methods of the paper and associated R script (`bootstrap_tech_txp_robustness_inference.R`).
 Transcript analyses were carried out across commonly detected transcripts in all technologies. Transcripts
 below 500 bp based on Ensemble 101 annotations were not used as these are typically removed during library prep.
 
