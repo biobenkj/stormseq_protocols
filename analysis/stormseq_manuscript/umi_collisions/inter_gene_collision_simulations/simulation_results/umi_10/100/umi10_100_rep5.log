@@ -1,0 +1,31 @@
+2024-07-23 14:58:03,088 - INFO - Simulation Script Version: 0.0.2
+2024-07-23 14:58:03,088 - INFO - Simulation Parameters:
+2024-07-23 14:58:03,088 - INFO - Length of UMI: 10
+2024-07-23 14:58:03,088 - INFO - Number of genes: 100
+2024-07-23 14:58:03,088 - INFO - Parameters file: None
+2024-07-23 14:58:03,088 - INFO - Mean (mu): 6.0
+2024-07-23 14:58:03,088 - INFO - Dispersion (theta): 6.0
+2024-07-23 14:58:03,088 - INFO - Use Poisson distribution: False
+2024-07-23 14:58:03,088 - INFO - Gene UMI counts file: gene_100_umi10_counts_rep5.txt
+2024-07-23 14:58:03,089 - INFO - UMI collisions file: umi10_100_collisions_rep5.txt
+2024-07-23 14:58:03,089 - INFO - Seed: None
+2024-07-23 14:58:03,089 - INFO - Log file: umi10_100_rep5.log
+2024-07-23 14:58:03,089 - INFO - No seed specified. Generated random seed: 3659862978
+2024-07-23 14:58:03,089 - INFO - Generating all possible UMIs...
+2024-07-23 14:58:03,378 - INFO - Total possible UMIs generated: 262144
+2024-07-23 14:58:03,378 - INFO - Loading parameters...
+2024-07-23 14:58:03,378 - INFO - Sampling read depths for each gene...
+2024-07-23 14:58:03,383 - INFO - Read depths sampling complete.
+2024-07-23 14:58:03,383 - INFO - Allocating UMIs based on sampled read depths...
+2024-07-23 14:58:03,383 - INFO - Allocating UMIs for gene 0...
+2024-07-23 14:58:08,031 - INFO - UMI allocation complete.
+2024-07-23 14:58:08,031 - INFO - Counting overall UMI occurrences...
+2024-07-23 14:58:08,032 - INFO - Counting inter-gene collisions...
+2024-07-23 14:58:08,040 - INFO - Total UMIs generated: 262144
+2024-07-23 14:58:08,040 - INFO - Total UMIs allocated: 657
+2024-07-23 14:58:08,040 - INFO - Number of unique UMIs assigned to genes: 656
+2024-07-23 14:58:08,040 - INFO - Inter-gene collisions: 1
+2024-07-23 14:58:08,040 - INFO - Inter-gene collision rate: 0.00152
+2024-07-23 14:58:08,040 - INFO - Writing gene UMI counts to file...
+2024-07-23 14:58:08,040 - INFO - Writing UMI inter-gene collisions to file...
+2024-07-23 14:58:08,041 - INFO - Simulation complete.

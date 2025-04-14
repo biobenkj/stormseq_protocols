@@ -1,0 +1,31 @@
+2024-07-20 23:29:08,368 - INFO - Simulation Script Version: 0.0.2
+2024-07-20 23:29:08,368 - INFO - Simulation Parameters:
+2024-07-20 23:29:08,368 - INFO - Length of UMI: 10
+2024-07-20 23:29:08,368 - INFO - Number of genes: 100
+2024-07-20 23:29:08,368 - INFO - Parameters file: None
+2024-07-20 23:29:08,368 - INFO - Mean (mu): 6.0
+2024-07-20 23:29:08,368 - INFO - Dispersion (theta): 6.0
+2024-07-20 23:29:08,368 - INFO - Use Poisson distribution: False
+2024-07-20 23:29:08,368 - INFO - Gene UMI counts file: gene_100_umi16_counts_rep9.txt
+2024-07-20 23:29:08,368 - INFO - UMI collisions file: umi16_100_collisions_rep9.txt
+2024-07-20 23:29:08,368 - INFO - Seed: None
+2024-07-20 23:29:08,368 - INFO - Log file: umi16_100_rep9.log
+2024-07-20 23:29:08,368 - INFO - UMI file: /varidata/research/projects/shen/projects/2024_Bens_swan_song/src/umi_collisions/umi_16.txt
+2024-07-20 23:29:08,368 - INFO - No seed specified. Generated random seed: 3394087251
+2024-07-20 23:29:08,368 - INFO - Using UMIs from file: /varidata/research/projects/shen/projects/2024_Bens_swan_song/src/umi_collisions/umi_16.txt
+2024-07-20 23:33:55,293 - INFO - Total UMIs loaded: 4294967296
+2024-07-20 23:33:55,293 - INFO - Loading parameters...
+2024-07-20 23:33:55,293 - INFO - Sampling read depths for each gene...
+2024-07-20 23:33:55,297 - INFO - Read depths sampling complete.
+2024-07-20 23:33:55,298 - INFO - Allocating UMIs based on sampled read depths...
+2024-07-20 23:33:55,298 - INFO - Allocating UMIs for gene 0...
+2024-07-20 23:33:55,565 - INFO - UMI allocation complete.
+2024-07-20 23:33:55,565 - INFO - Counting overall UMI occurrences...
+2024-07-20 23:33:55,566 - INFO - Counting inter-gene collisions...
+2024-07-20 23:33:55,567 - INFO - Total UMIs allocated: 591
+2024-07-20 23:33:55,567 - INFO - Number of unique UMIs assigned to genes: 591
+2024-07-20 23:33:55,567 - INFO - Inter-gene collisions: 0
+2024-07-20 23:33:55,567 - INFO - Inter-gene collision rate: 0.00000
+2024-07-20 23:33:55,567 - INFO - Writing gene UMI counts to file...
+2024-07-20 23:33:55,584 - INFO - Writing UMI inter-gene collisions to file...
+2024-07-20 23:33:55,586 - INFO - Simulation complete.

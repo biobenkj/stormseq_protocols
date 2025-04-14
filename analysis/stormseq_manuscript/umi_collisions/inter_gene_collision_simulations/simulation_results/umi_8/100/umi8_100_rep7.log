@@ -1,0 +1,31 @@
+2024-07-20 22:50:35,555 - INFO - Simulation Script Version: 0.0.1
+2024-07-20 22:50:35,556 - INFO - Simulation Parameters:
+2024-07-20 22:50:35,556 - INFO - Length of UMI: 8
+2024-07-20 22:50:35,556 - INFO - Number of genes: 100
+2024-07-20 22:50:35,556 - INFO - Parameters file: None
+2024-07-20 22:50:35,556 - INFO - Mean (mu): 6.0
+2024-07-20 22:50:35,556 - INFO - Dispersion (theta): 6.0
+2024-07-20 22:50:35,556 - INFO - Use Poisson distribution: False
+2024-07-20 22:50:35,556 - INFO - Gene UMI counts file: gene_100_umi8_counts_rep7.txt
+2024-07-20 22:50:35,556 - INFO - UMI collisions file: umi8_100_collisions_rep7.txt
+2024-07-20 22:50:35,556 - INFO - Seed: None
+2024-07-20 22:50:35,556 - INFO - Log file: umi8_100_rep7.log
+2024-07-20 22:50:35,556 - INFO - No seed specified. Generated random seed: 3005060874
+2024-07-20 22:50:35,556 - INFO - Generating all possible UMIs...
+2024-07-20 22:50:35,565 - INFO - Total possible UMIs generated: 65536
+2024-07-20 22:50:35,566 - INFO - Loading parameters...
+2024-07-20 22:50:35,566 - INFO - Sampling read depths for each gene...
+2024-07-20 22:50:35,570 - INFO - Read depths sampling complete.
+2024-07-20 22:50:35,570 - INFO - Allocating UMIs based on sampled read depths...
+2024-07-20 22:50:35,570 - INFO - Allocating UMIs for gene 0...
+2024-07-20 22:50:36,557 - INFO - UMI allocation complete.
+2024-07-20 22:50:36,557 - INFO - Counting overall UMI occurrences...
+2024-07-20 22:50:36,557 - INFO - Counting inter-gene collisions...
+2024-07-20 22:50:36,558 - INFO - Total UMIs generated: 65536
+2024-07-20 22:50:36,559 - INFO - Total UMIs allocated: 625
+2024-07-20 22:50:36,559 - INFO - Number of unique UMIs assigned to genes: 624
+2024-07-20 22:50:36,559 - INFO - Inter-gene collisions: 1
+2024-07-20 22:50:36,559 - INFO - Inter-gene collision rate: 0.00160
+2024-07-20 22:50:36,559 - INFO - Writing gene UMI counts to file...
+2024-07-20 22:50:36,559 - INFO - Writing UMI inter-gene collisions to file...
+2024-07-20 22:50:36,559 - INFO - Simulation complete.

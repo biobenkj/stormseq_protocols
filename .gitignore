@@ -12,9 +12,6 @@ Thumbs.db
 *.njsproj
 *.sln
 
-# Log files
-*.log
-
 # Compiled source #
 ###################
 *.com
@@ -27,12 +24,10 @@ Thumbs.db
 # Packaging
 *.7z
 *.dmg
-*.gz
 *.iso
 *.jar
 *.rar
 *.tar
-*.zip
 
 # Dependency directories
 node_modules/
