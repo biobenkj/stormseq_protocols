@@ -5,7 +5,7 @@ for library construction and analysis.
 
 ### Library construction
 You can expect this process to take approximately
-8-10 hours to go from single cells to prepared library. Please feel
+~8 hours to go from single cells to prepared library. Please feel
 free to open an issue if you encounter any sort of problem, have a
 question, or have a tip/trick that you'd like to share/see implemented.
 
