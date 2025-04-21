@@ -32,3 +32,10 @@ All demultiplexed files can then be checked against the MD5 checksum using `md5s
 the corresponding `storm_annotated_metadata_with_md5.tsv`. If they deviate, then something
 may have happened during file conversion. If you run into this, please open an issue and let
 us know.
+
+## Important note
+
+Please trim off the first 16 bp from read 1 and read 2 in order to recover
+the original/expected output from a STORM-seq run. Alternatively, you can skip
+the demultiplexing altogether and specify the read architecture to include the
+first 16 bp of both read 1 and read 2 to contain the relevant cell barcode.
