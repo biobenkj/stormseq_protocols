@@ -65,7 +65,7 @@ table(rowSums(k562_te_quants[,c(1:95)]) > 0)
 # 4078846  459232 
 k562_te_quants <- k562_te_quants[rowSums(k562_te_quants[,c(1:95)]) > 0,]
 
-# filter to TEs in at least 10% of cells
+# filter to TEs in at least 20% of cells
 keep_genes <- rowMeans(k562_te_quants[,c(1:95)] > 0) >= 0.2
 # FALSE   TRUE 
 # 453430   5802
@@ -85,6 +85,11 @@ k562_te_quants.filt.sine <- k562_te_quants.filt[k562_te_quants.filt$repClass %in
 k562_te_quants.filt.line.log <- log2(k562_te_quants.filt.line[,1:95] + 1)
 k562_te_quants.filt.ltr.log <- log2(k562_te_quants.filt.ltr[,1:95] + 1)
 k562_te_quants.filt.sine.log <- log2(k562_te_quants.filt.sine[,1:95] + 1)
+
+# combine and write out table
+k562_tes_out <- rbind(k562_te_quants.filt.line.log,
+                      k562_te_quants.filt.ltr.log,
+                      k562_te_quants.filt.sine.log)
 
 ## plot as a heatmap
 library(ComplexHeatmap)
