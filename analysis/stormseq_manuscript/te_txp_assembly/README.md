@@ -31,8 +31,8 @@ read structure of STORM-seq.
 
 ```
 teprof3 --manifest sc_sample_manifest.txt -ki --guided teprof3_output_TE_transcript_consensus.gtf -ql 150 -s 40
---guided run TEProf3 in guided mode to use a consensus TE-derived transcript GTF for quantification
--s 40 number of samples to be processed together at the same time: 40
+# --guided run TEProf3 in guided mode to use a consensus TE-derived transcript GTF for quantification
+# -s 40 number of samples to be processed together at the same time: 40
 ```
 
 ### Quantification of TE-derived transcripts in bulk total RNA-seq

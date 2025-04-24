@@ -1,0 +1,2 @@
+storm_k562_pseudobulk	short	k562_merged_star_ens101_noumi_with_multimappingAligned.sortedByCoord.out.bam	1
+storm_k562_pseudobulk	SJ	k562_merged_star_ens101_noumi_with_multimappingSJ.out.tab
