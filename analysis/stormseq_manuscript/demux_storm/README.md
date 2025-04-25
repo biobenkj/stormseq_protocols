@@ -31,7 +31,8 @@ python demux_merged_storm.py \
 All demultiplexed files can then be checked against the MD5 checksum using `md5sum` with
 the corresponding `storm_annotated_metadata_with_md5.tsv`. If they deviate, then something
 may have happened during file conversion. If you run into this, please open an issue and let
-us know.
+us know. These MD5 checksums are on the _uncompressed_ FASTQ files to ensure byte-for-byte comparison
+to the original files in `storm_annotated_metadata_with_md5.tsv` with those from GEO/SRA/ENA.
 
 ## Important note
 
