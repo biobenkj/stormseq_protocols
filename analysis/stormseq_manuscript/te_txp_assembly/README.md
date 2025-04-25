@@ -66,3 +66,5 @@ Downstream processing was done with a slightly modified Gviz in R (https://githu
 sashimi plots are generated as a proportion of the joint spanning reads. Plotting and analysis can be found
 in the `purpl_plotting_gviz.R`.
 
+<img title="TE txp heatmap" alt="TE txp heatmap" src="/images/te_txp_detection.png">
+
