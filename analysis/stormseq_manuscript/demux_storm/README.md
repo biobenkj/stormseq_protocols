@@ -1,6 +1,6 @@
 # Demultiplex STORM-seq data from the manuscript
 
-The data have been re-multiplexed for upload to GEO/SRA/ENA and live at: `GSE181544`.
+The data have been re-multiplexed for upload to GEO/SRA/ENA and live at: `GSE296406`.
 Normally we wouldn't use the data as a re-multiplexed format as we have uploaded it, 
 and instead use it on a per-cell basis, with the corresponding pair of fastq files - 
 so something like `A1_L001_R1_001.fastq.gz A1_L001_R2_001.fastq.gz`. But in order to
