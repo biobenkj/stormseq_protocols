@@ -256,7 +256,7 @@ p2_neg_controls <- c("vai_vasa_plate2_merged_009", "vai_vasa_plate2_merged_047",
                      "vai_vasa_plate2_merged_334", "vai_vasa_plate2_merged_379")
 
 # filter the negative controls and to HEK293T cells
-format_nums <- sprintf("%03d", 0:384)
+format_nums <- sprintf("%03d", 1:384)
 vasa_plate1 <- paste0("vai_vasa_plate1_merged_",
                       format_nums)
 names(vasa_plate1) <- c(rep("K562", 192),

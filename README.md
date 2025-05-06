@@ -25,11 +25,38 @@ directory. This is currently under construction with scripts being updated
 daily. We will update this README once it is complete!
 
 #### Data location
-STORM-seq data found in the manuscript can be found at GSE181544. While it
-is currently public, we are working with GEO/SRA to finalize the upload of
-the remaining K-562, HEK293T, and RMG-2 data to amend/add to that with the
-final data sets found in the manuscript. We are hoping to have these data
-added in the upcoming week as of this writing (04-18-25). 
+STORM-seq data found in the manuscript can be found at GSE296406. This super
+series contains all data found in each iteration of the manuscript. 
+
+```
+# Data generated for the paper
+
+## STORM-seq
+K-562 - GSM8969807
+HEK293T - GSM8969808
+RMG-2 - GSM8969809
+
+## Smart-seq3xpress
+K-562 unmapped BAM - GSM8969813
+K-562 remux'd from uBAM FASTQs - GSM8969812
+
+## VASA-seq
+K-562 and HEK293T plate 1 - GSM8969810
+K-562 and HEK293T plate 2 - GSM8969811
+
+## Bulk total RNA-seq
+K-562 rep 1 - GSM5505429
+K-562 rep 2 - GSM5505430
+
+## Fallopian tube epithelium
+Donor 1 - GSM5505431
+Donor 2 - GSM5505432
+```
+
+Other data present in this super series is from previous iterations of
+the paper and method. The rationale to include it is some of it has been
+cited as part of other manuscripts. NOTE: any other STORM-seq data not noted
+above in this GEO super series does _not_ have UMIs added. 
 
 *Thanks for trying out STORM-seq!*
 
