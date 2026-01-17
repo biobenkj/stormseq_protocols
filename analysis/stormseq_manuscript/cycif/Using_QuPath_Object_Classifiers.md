@@ -24,7 +24,7 @@ An existing QuPath project with images and detections (not cell objects) is requ
 
 Copy the json files of the object classifiers (or whole folder) into the classifier folder of the QuPath project. The classifier can now be used through the GUI in `Classify > Object Classifier > Load Object Classifier` or through scripting using the command `runObjectClassifier("name of classifier")`.
 
-Full script to create detections and run classifier can be found [here](/CellPose.groovy).
+Full script to create detections and run classifier can be found [here](/analysis/stormseq_manuscript/cycif/CellPose.groovy).
 
 The CellPose python environment and QuPath extension are required for using the full script. Links to resources below:
 
