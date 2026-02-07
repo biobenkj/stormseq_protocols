@@ -84,7 +84,7 @@ mypalette5 <- brewer.pal(11,"Spectral")
 #   }
 # }
 
-## missing a lot of code here... 
+
 ## need to import dataSTORM and filter as appropriate
 storm_sce <- readRDS("~/Documents/kb_python_storm_test/sce_filt_ens101_noround.rds")
 #storm_sce <- storm_sce[,storm_sce$CellType %in% "K562"]
