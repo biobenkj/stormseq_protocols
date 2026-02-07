@@ -171,7 +171,7 @@ count_barcodes <- function(strings, has_tag = TRUE) {
 }
 
 ## vasa
-vasa_reads <- rtracklayer::import("merged_hek293t_nonannot_reads.sorted.bed")
+vasa_reads <- rtracklayer::import("~/Documents/manuscripts/storm_seq/genomic_region_analysis/vasa/merged_hek293t_nonannot_reads.sorted.bed")
 
 # exclude ERCCs
 vasa_reads <- vasa_reads[grep("ERCC-", invert = TRUE, seqnames(vasa_reads)),]

@@ -1,5 +1,7 @@
 # STORM-seq protocols for library preparation and analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18512862.svg)](https://doi.org/10.5281/zenodo.18512862)
+
 This repository contains the current and archived STORM-seq protocols
 for library construction and analysis. 
 
